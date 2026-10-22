@@ -10,8 +10,7 @@
   --charcoal: #1f2933;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, sans-serif;
-  /* Tinos is a metric match for Times New Roman, for devices that lack it. */
-  --logo: "Times New Roman", Tinos, Times, serif;
+  --logo: "EB Garamond", Garamond, Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -99,6 +98,8 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
 /* Footer */
 .footer { margin-top: 72px; background: var(--charcoal); color: #b8c2cf; font-size: 14px; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; padding-top: 32px; padding-bottom: 32px; }
+/* Garamond italic leans right; skewing it the other way makes it lean left. */
+.logo span { display: inline-block; transform: skewX(34deg); padding: 0 .25em; }
 .logo-small { font-size: 38px; color: #fff; }
 
 @media (max-width: 760px) {
