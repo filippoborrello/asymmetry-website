@@ -34,8 +34,8 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
   font-family: var(--logo);
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(64px, 11vw, 100px);
-  line-height: 1;
+  font-size: clamp(64px, 11vw, 104px);
+  line-height: 1.05;
   letter-spacing: -0.01em;
   color: var(--navy);
   text-decoration: none !important;
@@ -98,8 +98,8 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
 /* Footer */
 .footer { margin-top: 72px; background: var(--charcoal); color: #b8c2cf; font-size: 14px; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; padding-top: 32px; padding-bottom: 32px; }
-/* Garamond italic leans right; skewing it the other way makes it lean left. */
-.logo span { display: inline-block; transform: skewX(34deg); padding: 0 .25em; }
+/* The second half of the wordmark sits a little lower: the "asymmetry". */
+.logo .drop { display: inline-block; vertical-align: -.32em; }
 .logo-small { font-size: 38px; color: #fff; }
 
 @media (max-width: 760px) {
