@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Asymmetry</title>
+  <meta name="description" content="Asymmetry is Georgetown's undergraduate economics review: student research, faculty perspectives, and commentary on current economic issues.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>Georgetown Undergraduate Economics Review</span>
+      <a href="index.html#write">Write for us</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <a class="logo" href="index.html#top" aria-label="Asymmetry home">Asym<span class="drop">metry</span></a>
+      <p class="tagline">We bridge the gap.</p>
+      <nav class="sections" aria-label="Sections">
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#publish">What we publish</a>
+        <a href="index.html#write">Write for us</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="launch">
+      <p class="kicker">Get in touch</p>
+      <h1>Contact Asymmetry</h1>
+      <p class="dek">Want to write, edit, share your research, or just learn more? We’d love to hear from you.</p>
+    </section>
+
+    <section class="block">
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:fmb48@georgetown.edu?subject=Asymmetry%3A%20Writing%20proposal">
+          <span class="kicker">Writers</span>
+          <span class="headline">Pitch an article</span>
+          <span>Send two or three topics, each with a research question and a few sources.</span>
+        </a>
+        <a class="contact-card" href="mailto:fmb48@georgetown.edu?subject=Asymmetry%3A%20Joining%20the%20team">
+          <span class="kicker">Editors</span>
+          <span class="headline">Join the team</span>
+          <span>Help peer review, edit, and produce the journal.</span>
+        </a>
+        <a class="contact-card" href="mailto:fmb48@georgetown.edu?subject=Asymmetry%3A%20Faculty">
+          <span class="kicker">Faculty</span>
+          <span class="headline">Advise or contribute</span>
+          <span>Review a student piece or share your perspective in an upcoming issue.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="block about">
+      <h2>Send us a message</h2>
+      <form class="contact-form" id="contact-form">
+        <label>Your name<input name="name" type="text" required autocomplete="name"></label>
+        <label>Topic
+          <select name="topic">
+            <option>General question</option>
+            <option>Writing proposal</option>
+            <option>Joining the team</option>
+            <option>Faculty</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="6" required></textarea></label>
+        <button class="btn" type="submit">Open in my email app</button>
+        <p class="form-note">This opens a pre-filled email to <a href="mailto:fmb48@georgetown.edu">fmb48@georgetown.edu</a>. You can also write to us directly.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="logo logo-small" aria-label="Asymmetry">Asym<span class="drop">metry</span></span>
+      <span>Georgetown University · Washington, DC · &copy; <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

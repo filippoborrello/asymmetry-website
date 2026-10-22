@@ -68,6 +68,21 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
 .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; margin-top: 24px; }
 .pillars p:not(.kicker) { margin: 8px 0 0; color: var(--muted); font-size: 20px; line-height: 1.5; }
 
+/* Contact */
+.sections a[aria-current] { color: var(--navy); text-decoration: underline; text-underline-offset: 6px; }
+.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin-top: 16px; }
+.contact-card { display: flex; flex-direction: column; gap: 6px; padding: 28px; background: var(--wash); color: var(--muted); }
+.contact-card:hover { background: #e2e8f1; text-decoration: none; }
+.contact-card .headline { font-size: 26px; margin: 0; }
+.contact-form { display: flex; flex-direction: column; gap: 18px; max-width: 640px; }
+.contact-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 500; color: var(--ink); }
+.contact-form input, .contact-form select, .contact-form textarea {
+  font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid var(--line); background: #fff; color: var(--text); border-radius: 0;
+}
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--navy); outline-offset: 1px; }
+.contact-form .btn { align-self: flex-start; border: 0; cursor: pointer; font-family: inherit; }
+.form-note { margin: 0; color: var(--soft); font-size: 16px; }
+
 /* Lead */
 .lead { display: flex; flex-wrap: wrap; gap: 40px; padding-top: 40px; }
 .lead-story { flex: 999 1 560px; min-width: 0; }
