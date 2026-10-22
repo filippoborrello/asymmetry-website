@@ -7,137 +7,132 @@
   <meta name="description" content="Asymmetry is Georgetown's undergraduate economics review: non-technical, relatable writing on the economics of everyday life.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="Asymmetry home">
-        <span class="mark" aria-hidden="true"></span>Asymmetry
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
-      <nav id="nav-links" class="nav-links">
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>Georgetown Undergraduate Economics Review</span>
+      <a href="#write">Write for us</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <a class="logo" href="#top" aria-label="Asymmetry home"><span>Asymmetry</span></a>
+      <p class="tagline">We bridge the gap.</p>
+      <nav class="sections" aria-label="Sections">
+        <a href="#latest">Analysis</a>
+        <a href="#latest">Opinion</a>
+        <a href="#latest">Research Reviews</a>
+        <a href="#latest">Short Takes</a>
         <a href="#about">About</a>
-        <a href="#write">Write for us</a>
-        <a href="#process">Process</a>
-        <a href="#articles">Articles</a>
-        <a href="#contact" class="btn btn-small">Get involved</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="wrap">
-        <p class="eyebrow">Georgetown Undergraduate Economics Review</p>
-        <h1>We bridge the gap.</h1>
-        <p class="lede">Asymmetry publishes non-technical, relatable economics written by undergraduates, about the questions that come up in everyday life and the news.</p>
-        <div class="hero-actions">
-          <a class="btn" href="#write">Write for Asymmetry</a>
-          <a class="btn btn-ghost" href="#articles">Read the review</a>
-        </div>
+  <main id="top" class="wrap">
+    <section class="lead">
+      <article class="lead-story">
+        <div class="img-placeholder wide">Article image</div>
+        <p class="kicker">Analysis · Coming this spring</p>
+        <h1>How NAFTA Put Avocados on Every American Table</h1>
+        <p class="dek">Trade agreements reshape more than markets. They change what we eat, and what we think of as ordinary.</p>
+        <p class="byline">By [Author name] · 7 min read</p>
+      </article>
+      <aside class="also">
+        <p class="label">Also in this issue</p>
+        <a href="#latest" class="also-item">
+          <span class="kicker">Opinion</span>
+          <span class="headline">The Economics of the Unlimited Meal Plan</span>
+          <span class="byline">[Author name]</span>
+        </a>
+        <a href="#latest" class="also-item">
+          <span class="kicker">Analysis</span>
+          <span class="headline">The Hidden Payoff of the DC Metro</span>
+          <span class="byline">[Author name]</span>
+        </a>
+        <a href="#latest" class="also-item">
+          <span class="kicker">Short Take</span>
+          <span class="headline">What Broadway Ticket Prices Tell Us About Demand</span>
+          <span class="byline">[Author name]</span>
+        </a>
+      </aside>
+    </section>
+
+    <section id="latest" class="block">
+      <div class="block-head">
+        <h2>Latest</h2>
+        <a href="#latest">All articles</a>
+      </div>
+      <div class="grid4">
+        <a href="#latest" class="card">
+          <div class="img-placeholder" style="background:#dfe5ee"></div>
+          <span class="kicker">Analysis</span>
+          <span class="headline">Why Most Premier League Clubs Lose Money</span>
+        </a>
+        <a href="#latest" class="card">
+          <div class="img-placeholder" style="background:#cfd8e6"></div>
+          <span class="kicker">Research Review</span>
+          <span class="headline">Who Actually Holds the National Debt?</span>
+        </a>
+        <a href="#latest" class="card">
+          <div class="img-placeholder" style="background:#e4e8ee"></div>
+          <span class="kicker">Opinion</span>
+          <span class="headline">Georgetown’s Housing Market Is a Cartel</span>
+        </a>
+        <a href="#latest" class="card">
+          <div class="img-placeholder" style="background:#d6dde8"></div>
+          <span class="kicker">Short Take</span>
+          <span class="headline">Moneyball, Twenty Years Later</span>
+        </a>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="wrap two-col">
+    <section id="about" class="block about">
+      <h2>What is Asymmetry?</h2>
+      <div class="prose">
+        <p>Getting involved in economics research as an undergraduate is hard. The barrier to entry is high, and building relationships with faculty takes time. At the same time, the kind of writing you find in <em>The Economist</em> or the <em>Financial Times</em>, which applies economics to real-world topics, is largely missing on campus.</p>
+        <p>Asymmetry is a place for that writing. Inspired by <em>Equilibrium</em> at the University of Wisconsin–Madison, we publish an annual spring review of student work, plus short takes throughout the year. Every piece is peer reviewed, and long-form pieces aim for faculty review too.</p>
+      </div>
+    </section>
+
+    <section id="write" class="block">
+      <div class="block-head"><h2>Write for Asymmetry</h2></div>
+      <div class="types">
         <div>
-          <h2>What is Asymmetry?</h2>
+          <p class="kicker">Analysis</p>
+          <p>An original, data-driven piece in the style of an academic journal article, with visualizations and, ideally, faculty guidance.</p>
         </div>
-        <div class="prose">
-          <p>Getting involved in economics research as an undergraduate is hard. The barrier to entry is high, and building relationships with faculty takes time. At the same time, the kind of writing you find in <em>The Economist</em> or the <em>Financial Times</em>, which applies economics to real-world topics, is largely missing on campus.</p>
-          <p>Asymmetry is a place for that writing. Inspired by <em>Equilibrium</em> at the University of Wisconsin–Madison, we publish an annual review of student work, plus shorter pieces throughout the year. Every piece is peer reviewed, and long-form pieces aim for faculty review too.</p>
-          <p><strong>No experience is needed.</strong> Interdisciplinary topics are welcome; it doesn't have to be strictly economics or politics.</p>
+        <div>
+          <p class="kicker">Opinion</p>
+          <p>Any topic you care about, with room for creative structure. Trade wars, housing, a policy debate.</p>
         </div>
-      </div>
-    </section>
-
-    <section id="write" class="section section-alt">
-      <div class="wrap">
-        <h2>What you can write</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Analysis</h3>
-            <p>An original research piece in the style of an academic journal article. More data oriented, with visualizations and, ideally, help from faculty.</p>
-          </article>
-          <article class="card">
-            <h3>Opinion</h3>
-            <p>Any topic that interests you, with more room for creative structure. Think trade wars, the housing market, or a policy debate.</p>
-          </article>
-          <article class="card">
-            <h3>Research review</h3>
-            <p>Pick one published paper and walk readers through it: first what it says, then your own reflection and its policy implications.</p>
-          </article>
+        <div>
+          <p class="kicker">Research Review</p>
+          <p>Walk readers through one published paper, then give your own reflection and its policy implications.</p>
         </div>
-
-        <h2 class="mt">How long?</h2>
-        <div class="cards cards-2">
-          <article class="card">
-            <p class="tag">Long form</p>
-            <h3>1,000–1,500 words</h3>
-            <ul>
-              <li>2,000 words maximum, about a 7 minute read</li>
-              <li>Two peer reviews and one faculty review</li>
-              <li>Published in the spring edition</li>
-            </ul>
-          </article>
-          <article class="card">
-            <p class="tag">Short form</p>
-            <h3>Up to 500 words</h3>
-            <ul>
-              <li>Often tied to current events, but doesn't have to be</li>
-              <li>One peer review</li>
-              <li>Published on completion</li>
-              <li>Open to writers working on a long-form piece</li>
-            </ul>
-          </article>
+        <div>
+          <p class="kicker">Length</p>
+          <p>Long form runs 1,000–1,500 words (2,000 max) in the spring issue. Short takes are up to 500 words and run when ready.</p>
         </div>
       </div>
-    </section>
-
-    <section id="process" class="section">
-      <div class="wrap">
-        <h2>From idea to publication</h2>
-        <ol class="timeline">
-          <li><span class="step">01</span><div><h3>Proposal</h3><p>Two or three topics, each with a research question, a short paragraph on why, how economics applies, and five sources. <strong>Due October 31.</strong></p></div></li>
-          <li><span class="step">02</span><div><h3>Literature review</h3><p>Read what's been written, both academic and journalistic.</p></div></li>
-          <li><span class="step">03</span><div><h3>Peer review 1</h3><p>Finalize the proposal and outline the concepts. Mid November.</p></div></li>
-          <li><span class="step">04</span><div><h3>Drafting</h3><p>Outline and preliminary draft, then a second peer review in early January.</p></div></li>
-          <li><span class="step">05</span><div><h3>Final draft and faculty review</h3><p>Final draft by late January, faculty review in February.</p></div></li>
-          <li><span class="step">06</span><div><h3>Publishing</h3><p>The review is published in the spring.</p></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="articles" class="section section-alt">
-      <div class="wrap">
-        <h2>Articles</h2>
-        <p class="muted">Our first pieces are in progress. Here's a taste of what our writers are thinking about:</p>
-        <ul class="topics">
-          <li>How NAFTA changed American culture, one avocado at a time</li>
-          <li>The economics of the unlimited meal plan</li>
-          <li>The positive externalities of the DC Metro</li>
-          <li>Why most Premier League clubs aren't profitable</li>
-          <li>The economics of Broadway ticket prices</li>
-          <li>Understanding the national debt and how it's financed</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="wrap cta">
-        <h2>Get involved</h2>
-        <p>Want to write, edit, or just learn more? Send your questions or proposal to us.</p>
-        <a class="btn" href="mailto:fmb48@georgetown.edu?subject=Asymmetry">Email Asymmetry</a>
+      <div class="cta">
+        <div>
+          <h3>Have an idea? Write it.</h3>
+          <p>No experience needed. Send two or three topics, each with a research question and a few sources, and we’ll pair you with peer editors.</p>
+        </div>
+        <a class="btn" href="mailto:fmb48@georgetown.edu?subject=Asymmetry%20proposal">Send a proposal</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; <span id="year"></span> Asymmetry · Georgetown University</p>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="logo logo-small"><span>Asymmetry</span></span>
+      <span>Georgetown University · Washington, DC · &copy; <span id="year"></span></span>
     </div>
   </footer>
 

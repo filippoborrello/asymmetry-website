@@ -20,7 +20,7 @@ In the repository's **Settings → Pages**, set the source to the `main` branch,
 
 ## Structure
 
-- `index.html` – the single-page site (About, Write for us, Process, Articles, Contact)
+- `index.html` – the single-page site (lead story, Latest, About, Write for us)
 - `assets/style.css` – styles
-- `assets/main.js` – mobile menu and footer year
+- `assets/main.js` – footer year
 - `assets/favicon.svg` – placeholder logo mark
