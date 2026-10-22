@@ -10,7 +10,7 @@
   --charcoal: #1f2933;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, sans-serif;
-  --script: "Parisienne", cursive;
+  --logo: "Grenze Gotisch", "Newsreader", Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -31,14 +31,14 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
 .masthead { text-align: center; padding-top: 32px; }
 .logo {
   display: inline-block;
-  font-family: var(--script);
-  font-size: clamp(64px, 11vw, 104px);
-  line-height: 1.1;
+  font-family: var(--logo);
+  font-weight: 400;
+  font-size: clamp(64px, 11vw, 100px);
+  line-height: 1;
+  letter-spacing: -0.01em;
   color: var(--navy);
   text-decoration: none !important;
 }
-/* Parisienne leans right; skewing it the other way makes it lean left. */
-.logo span { display: inline-block; transform: skewX(24deg); padding: 0 .3em; }
 .tagline { font-family: var(--serif); font-style: italic; color: #5b6676; font-size: 18px; margin: 4px 0 0; }
 .sections {
   margin-top: 28px; padding: 14px 0;
