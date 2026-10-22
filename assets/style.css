@@ -10,7 +10,8 @@
   --charcoal: #1f2933;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, sans-serif;
-  --logo: "Grenze Gotisch", "Newsreader", Georgia, serif;
+  /* Tinos is a metric match for Times New Roman, for devices that lack it. */
+  --logo: "Times New Roman", Tinos, Times, serif;
 }
 
 * { box-sizing: border-box; }
@@ -32,6 +33,7 @@ h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.15; }
 .logo {
   display: inline-block;
   font-family: var(--logo);
+  font-style: italic;
   font-weight: 400;
   font-size: clamp(64px, 11vw, 100px);
   line-height: 1;
